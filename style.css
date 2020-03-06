@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding: 0;
+}
+body{
+    background-color:grey;
+    font-family: 'Tomorrow', ;
+}
+.container{
+    max-width:1000px;
+    background-color: antiquewhite;
+    margin:0 auto; 
+    padding:15px;
+
+}
+.profile-image{
+    height:200px;
+    width:200px;
+    border:3px solid pink;
+    float:left;
+}
+.header-bio{
+    float:left;
+    padding:30px;
+}
+h1,h2,h3,h4{
+    color:skyblue;
+}
+.header-contact-link{
+
+  float:right;
+    padding: 30px;
+}
+.header-contact-link a{
+    text-decoration: none;
+    color:skyblue;
+    font-size:20px;
+    font-weight: bold;
+
+}
+.header-contact-link a:hover{
+    text-decoration: underline;
+}
+.div-clear{
+    clear:both;
+}
+hr{
+    border:solid black 3px;
+    margin:20px auto;
+    width:100%;
+    border-bottom:none;
+}
+/*----------
+personal section start*/
+#personal-section{
+
+}
+
+.section1{
+margin: 20px auto;
+}
+
+.left-div{
+    color:skyblue;
+    width:30%;
+    float:left;
+}
+
+.right-div{
+    width:70%;
+    float:right;
+}
+.commonhorizontal-rule{
+    border:solid black 1px;
+    border-bottom:none;
+    width:100%;
+    margin:20px auto;
+}
+/*education section ------
+*/
+
+.leftRight-div{
+width:36 %;
+float:left;
+
+}
+
+.rightRight-div{
+width:36%;
+float:right;
+
+}
+
+.style-footer{
+    background-color:black;
+    text-align:center;
+    padding: 10px;
+}
+
+.style-footer a{
+color:white;
+text-decoration:none;
+margin:20px;
+
+}
+.style-footer p{
+    color:white;
+    margin-top:20px;
+}
+
+
